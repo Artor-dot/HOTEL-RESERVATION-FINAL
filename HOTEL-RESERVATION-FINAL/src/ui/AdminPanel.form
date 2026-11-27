@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.AdminPanel">
+  <grid id="85433" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1024" height="640"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="bc1cb" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="8">
+        <margin top="30" left="25" bottom="20" right="25"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-856867"/>
+          <preferred-size width="240" height="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="74c5e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="90"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="&lt;html&gt;&lt;div style='text-align:center'&gt;TRIPLE&lt;br&gt;THREAT&lt;/div&gt;&lt;/html&gt;"/>
+              <font name="Serif" size="34" style="0"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="def93" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ADMIN PANEL"/>
+              <font name="SansSerif" size="13" style="1"/>
+              <foreground color="-5862581"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="0c314" class="javax.swing.JButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Guests"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-1"/>
+              <background color="-14725830"/>
+              <opaque value="true"/>
+            </properties>
+          </component>
+          <component id="51f34" class="javax.swing.JButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Reservations"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <background color="-856867"/>
+              <opaque value="true"/>
+            </properties>
+          </component>
+          <component id="f8ebf" class="javax.swing.JButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Payments"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <background color="-856867"/>
+              <opaque value="true"/>
+            </properties>
+          </component>
+          <component id="76113" class="javax.swing.JButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Logout"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <background color="-856867"/>
+              <opaque value="true"/>
+            </properties>
+          </component>
+          <vspacer id="b42f0">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="b51a4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Signed in as admin"/>
+              <font name="SansSerif" size="13" style="0"/>
+              <horizontalAlignment value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2c2e5" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-527382"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9ebea" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="guests"/>
+            </constraints>
+            <properties>
+              <background color="-527382"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ff441" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="reservations"/>
+            </constraints>
+            <properties>
+              <background color="-527382"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="eb1b9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="payments"/>
+            </constraints>
+            <properties>
+              <background color="-527382"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

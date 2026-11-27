@@ -1,0 +1,5 @@
+PAY-2026-0001|TT-2026-0001|r2r|Credit / Debit Card|Visa ending 4242|18050.00|PAID|2026-11-20T10:15
+PAY-2026-0002|TT-2026-0002|dwadwa|Cash at Front Desk|Pay at front desk|305000.00|PENDING|2026-11-21T02:03
+PAY-2026-0003|TT-2026-0003|dwadwa|Cash at Front Desk|Pay at front desk|15500.00|VOID|2026-11-21T02:10
+PAY-2026-0004|TT-2026-0004|dwadwa|Cash at Front Desk|Pay at front desk|2750.00|VOID|2026-11-21T02:12
+PAY-2026-0005|TT-2026-0005|r2rr2r|Cash at Front Desk|Pay at front desk|28750.00|REFUNDED|2026-11-27T08:43:16

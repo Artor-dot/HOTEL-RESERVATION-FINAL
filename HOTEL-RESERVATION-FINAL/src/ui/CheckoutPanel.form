@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.CheckoutPanel">
+  <grid id="9cb02" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="784" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-527382"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="c8fa8">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="4fd9d" layout-manager="BorderLayout" hgap="0" vgap="15">
+            <constraints/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="empty">
+              <size top="25" left="25" bottom="25" right="25"/>
+            </border>
+            <children>
+              <component id="f7972" class="javax.swing.JLabel">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="CHECKOUT &amp; BOOKING CONFIRMATION"/>
+                  <font name="SansSerif" size="20" style="1"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <grid id="024cd" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="449bc" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="6">
+                    <margin top="16" left="22" bottom="16" right="22"/>
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <background color="-659485"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-3555418"/>
+                    </border>
+                    <children>
+                      <component id="c7608" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="PAYMENT METHOD"/>
+                          <font name="SansSerif" size="20" style="1"/>
+                        </properties>
+                      </component>
+                      <component id="696a1" class="javax.swing.JRadioButton">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Cash"/>
+                          <font name="SansSerif" size="16" style="0"/>
+                          <opaque value="false"/>
+                          <selected value="true"/>
+                        </properties>
+                      </component>
+                      <component id="0f557" class="javax.swing.JRadioButton">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Credit / Debit Card"/>
+                          <font name="SansSerif" size="16" style="0"/>
+                          <opaque value="false"/>
+                        </properties>
+                      </component>
+                      <component id="59391" class="javax.swing.JRadioButton">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="E-Wallet"/>
+                          <font name="SansSerif" size="16" style="0"/>
+                          <opaque value="false"/>
+                        </properties>
+                      </component>
+                      <grid id="27dea" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="4">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="ef7ca" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="31b39" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="CARD NUMBER (test: 4242 4242 4242 4242)"/>
+                                  <font name="SansSerif" size="13" style="0"/>
+                                </properties>
+                              </component>
+                              <component id="d6d7d" class="javax.swing.JTextField">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="80" height="32"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="SansSerif" size="14" style="0"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="423c6" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <grid id="e9ed6" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <component id="be614" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="NAME ON CARD"/>
+                                      <font name="SansSerif" size="13" style="0"/>
+                                    </properties>
+                                  </component>
+                                  <component id="1f55f" class="javax.swing.JTextField">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="80" height="32"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <font name="SansSerif" size="14" style="0"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <grid id="e3ede" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <component id="520a1" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="EXPIRY (MM/YY)"/>
+                                      <font name="SansSerif" size="13" style="0"/>
+                                    </properties>
+                                  </component>
+                                  <component id="99003" class="javax.swing.JTextField">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="80" height="32"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <font name="SansSerif" size="14" style="0"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                              <grid id="76512" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <opaque value="false"/>
+                                </properties>
+                                <border type="none"/>
+                                <children>
+                                  <component id="67836" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="CVV"/>
+                                      <font name="SansSerif" size="13" style="0"/>
+                                    </properties>
+                                  </component>
+                                  <component id="4bd0d" class="javax.swing.JPasswordField">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="80" height="32"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties>
+                                      <font name="SansSerif" size="14" style="0"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="d5f0f" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="cee04" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="e17d5" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="WALLET"/>
+                                  <font name="SansSerif" size="13" style="0"/>
+                                </properties>
+                              </component>
+                              <component id="42e6f" class="javax.swing.JComboBox">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="80" height="32"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="SansSerif" size="14" style="0"/>
+                                  <background color="-1"/>
+                                  <model><item value="GCash"/><item value="Maya"/></model>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="096d1" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="9ca9b" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="MOBILE NUMBER"/>
+                                  <font name="SansSerif" size="13" style="0"/>
+                                </properties>
+                              </component>
+                              <component id="129cb" class="javax.swing.JTextField">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="80" height="32"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="SansSerif" size="14" style="0"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="31657" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="true" same-size-vertically="false" hgap="12" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <opaque value="false"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="abdf7" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="1571b" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="GUEST FULL NAME"/>
+                                  <font name="SansSerif" size="13" style="0"/>
+                                </properties>
+                              </component>
+                              <component id="51c68" class="javax.swing.JTextField">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="80" height="32"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="SansSerif" size="14" style="0"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="2929d" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="3">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="1956c" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <text value="CONTACT NUMBER"/>
+                                  <font name="SansSerif" size="13" style="0"/>
+                                </properties>
+                              </component>
+                              <component id="3838e" class="javax.swing.JTextField">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="80" height="32"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <font name="SansSerif" size="14" style="0"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <component id="d13c5" class="javax.swing.JButton">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="-1" height="38"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <text value="CONFIRM RESERVATION"/>
+                          <font name="SansSerif" size="14" style="1"/>
+                          <foreground color="-1"/>
+                          <background color="-5862581"/>
+                          <opaque value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <grid id="fe696" layout-manager="BorderLayout" hgap="0" vgap="12">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-856867"/>
+          <preferred-size width="300" height="0"/>
+        </properties>
+        <border type="empty">
+          <size top="25" left="20" bottom="25" right="20"/>
+        </border>
+        <children>
+          <grid id="72335" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="8ff0e" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="8" vgap="6">
+                <margin top="12" left="12" bottom="12" right="12"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-659485"/>
+                </properties>
+                <border type="line">
+                  <color color="-5862581"/>
+                </border>
+                <children>
+                  <component id="9a7e9" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="RESERVATION RECEIPT"/>
+                      <font name="SansSerif" size="18" style="1"/>
+                      <horizontalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <grid id="cc930" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <opaque value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="f6ca7" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="&lt;html&gt;BOOKING ID:&lt;br&gt;PREVIEW&lt;/html&gt;"/>
+                          <font name="SansSerif" size="14" style="0"/>
+                        </properties>
+                      </component>
+                      <component id="9f5bd" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="PENDING"/>
+                          <font name="SansSerif" size="12" style="1"/>
+                          <foreground color="-1"/>
+                          <background color="-5862581"/>
+                          <opaque value="true"/>
+                          <horizontalAlignment value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <component id="3f01d" class="javax.swing.JSeparator">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="5bd09" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="70" height="18"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="GUEST:"/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="b375b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="3ad78" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="70" height="18"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="ROOM:"/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="49b45" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="7f494" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="70" height="18"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="DATES:"/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="ac5c1" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="7a6be" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="70" height="18"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="ADD-ONS:"/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="aab66" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="3c1a6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="70" height="18"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="PAYMENT:"/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="731d9" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value=""/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="12889" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="TOTAL DUE:"/>
+                      <font name="SansSerif" size="14" style="0"/>
+                    </properties>
+                  </component>
+                  <component id="80f54" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="₱0.00"/>
+                      <font name="SansSerif" size="20" style="1"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="c1765" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="8">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="South"/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="aa91a" class="javax.swing.JButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="38"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="VIEW MY RESERVATIONS"/>
+                  <font name="SansSerif" size="14" style="1"/>
+                  <foreground color="-1"/>
+                  <background color="-5862581"/>
+                  <opaque value="true"/>
+                </properties>
+              </component>
+              <component id="d8db9" class="javax.swing.JButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="38"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="BACK TO ROOMS"/>
+                  <font name="SansSerif" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <background color="-1"/>
+                  <opaque value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

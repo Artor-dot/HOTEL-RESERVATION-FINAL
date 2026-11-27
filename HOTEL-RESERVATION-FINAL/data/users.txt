@@ -1,0 +1,5 @@
+Demo Guest|demo@email.com|demo|demo123|GUEST|ACTIVE|
+r2r|r2r@gmail.com|r2r|tortor|GUEST|ACTIVE|
+dwadwa|dwadwa@r2r.com|dwadwa|dwadwa|GUEST|ACTIVE|
+Administrator|admin@triplethreat.com|admin|admin123|ADMIN|ACTIVE|
+r2r|r2r@gmail.com|r2rr2r|r2rr2r|GUEST|ACTIVE|
